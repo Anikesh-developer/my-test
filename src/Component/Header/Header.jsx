@@ -10,15 +10,6 @@ import Category from '../Category/Category';
 const Header = () => {
     const[content, setContent] = useState([]);
 
-    const fetchData = async () => {
-        const {data1} = await axios.get(`https://api.postman.com/collections/24582109-37d97559-22b0-42e0-b592-7fd8b90b8e01?access_key=PMAT-01GXAEX88FNRZN45AWACQ2V20F`) ;
-        
-    };
-
-    useEffect(() => {
-        fetchData();
-    },[])
-
     const fetchAllData = async () => {
         const {data} = await axios.get(`https://fakestoreapi.com/products`);
 
