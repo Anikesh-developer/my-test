@@ -1,0 +1,35 @@
+.product__listing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product__title {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product__image img {
+    width: 10vw;
+}
+.view ,.update , .delete{
+    margin: 1rem;
+}
+.model-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(189, 189, 189, 0.95);
+}
+.model-container{
+    position: fixed;
+    max-width: 30rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+}
