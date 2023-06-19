@@ -5,9 +5,15 @@
     flex-direction: column;
 }
 .product__title {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .product__image img {
     width: 10vw;
